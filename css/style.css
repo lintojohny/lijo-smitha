@@ -339,8 +339,26 @@ hr {
 @media (max-width:1024px){
 	.home_intro {
 		animation:none!important;
-		background-position: right!important;
+		/* background-position: right!important; */
 	}
 
 }
 
+@media (max-width: 600px){
+	.choose:before {
+		transform: skew(-17deg, 0deg);
+		transform-origin: 0 0 0;
+		left: -123px;
+	}
+	.choose{
+	overflow: hidden;}
+	}
+		
+	
+	
+	.choose {
+		position: fixed;
+		z-index: 5;
+	}
+	
+			
